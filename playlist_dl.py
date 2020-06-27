@@ -56,5 +56,5 @@ def download_mp3(txt_file):
                 print(colored(f"Song '{title}' has been downloaded", "red"))
                 print(get_file_size(a_path, title))
 
-
-download_mp3(txt_file)
+if __name__ == '__main__':
+    download_mp3(txt_file)
